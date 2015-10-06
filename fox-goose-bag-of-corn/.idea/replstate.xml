@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1443937268812">{:repl-history {:ide [], :local [&quot;(--&gt; :goose start-pos)&quot; &quot;(river-crossing-plan)&quot; &quot;\n(first [ [\&quot;hello\&quot;]])&quot; &quot;(remove #{:one} [:one :two :three])&quot; &quot;(into []  remove #{:one} [:one :two :three])&quot; &quot;(vec  remove #{:one} [:one :two :three])&quot; &quot;(set [:one :two])&quot; &quot;(concat [1 2 3] [4 5 6])&quot; &quot;(vec (concat [1 2 3] [4 5 6]))&quot;], :remote []}}</component>
+</project>

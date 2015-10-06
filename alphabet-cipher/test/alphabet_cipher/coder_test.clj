@@ -1,6 +1,6 @@
 (ns alphabet-cipher.coder-test
   (:require [clojure.test :refer :all]
-            [alphabet-cipher.coder :refer :all]))
+            [alphabet-cipher.coder_kephren :refer :all]))
 
 (deftest test-encode
   (testing "can encode given a secret keyword"
