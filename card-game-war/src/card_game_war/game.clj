@@ -26,16 +26,16 @@
 (defn play-game [p1-cards p2-cards]
   (let [[p1-card & p1-deck] p1-cards
         [p2-card & p2-deck] p2-cards
-        reward (shuffle [p1-card p2-card])]
+        spoils (shuffle [p1-card p2-card])]
     (reveal-decks p1-cards p2-cards)
     (cond
       (empty? p1-cards) "Player 2 Wins Game!"
       (empty? p2-cards) "Player 1 Wins Game!"
       ;reward player1
       (= (play-round p1-card p2-card) :player1)
-      (recur (concat p1-deck reward) p2-deck)
+      (recur (concat p1-deck spoils) p2-deck)
       ;reward player2
       :player2-won-round
-      (recur p1-deck (concat p2-deck reward)))))
+      (recur p1-deck (concat p2-deck spoils)))))
 
 (println (play-game player1-deck player2-deck))

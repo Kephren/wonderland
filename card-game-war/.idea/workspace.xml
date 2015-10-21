@@ -25,8 +25,8 @@
       <file leaf-file-name="game.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/card_game_war/game.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49734646">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43669447">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -540,12 +540,12 @@
       <updated>1443925326364</updated>
       <workItem from="1443925329964" duration="412000" />
       <workItem from="1445308378985" duration="3645000" />
-      <workItem from="1445388527277" duration="4457000" />
+      <workItem from="1445388527277" duration="4558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8514000" />
+    <option name="totallyTimeSpent" value="8615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/card_game_war/game.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49734646">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43669447">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
         </state>
       </provider>
