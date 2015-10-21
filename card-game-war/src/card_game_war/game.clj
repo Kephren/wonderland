@@ -19,15 +19,15 @@
     :player1
     :player2))
 
-(defn show-decks [p1-deck p2-deck]
-  (println :p1-deck  (count p1-deck) p1-deck)
+(defn reveal-decks [p1-deck p2-deck]
+  (println :p1-deck (count p1-deck) p1-deck)
   (println :p2-deck (count p2-deck) p2-deck))
 
 (defn play-game [p1-cards p2-cards]
   (let [[p1-card & p1-deck] p1-cards
         [p2-card & p2-deck] p2-cards
         reward (shuffle [p1-card p2-card])]
-    (show-decks p1-cards p2-cards)
+    (reveal-decks p1-cards p2-cards)
     (cond
       (empty? p1-cards) "Player 2 Wins Game!"
       (empty? p2-cards) "Player 1 Wins Game!"
